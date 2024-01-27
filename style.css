@@ -449,3 +449,45 @@ header h2:hover {
   font-size: 0.8rem;
   color: rgb(157, 196, 229);
 }
+
+.main-section-right .section-container {
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  justify-content: space-between;
+}
+
+.main-section-right .section-container .title i {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.main-section-right .section-container .title i:hover {
+  color: tomato;
+}
+
+.title.player {
+  display: block;
+  text-align: center;
+}
+
+.player-settings {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(138, 140, 170);
+  gap: 30px;
+  font-size: 3rem;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.player-settings i {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.player-settings i:hover {
+  color: tomato;
+  transform: scale(0.97);
+}

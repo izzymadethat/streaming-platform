@@ -1,4 +1,5 @@
 const songList = document.querySelector(".top-songs-list");
+console.log(window.innerWidth);
 
 const topSongs = [
   {
